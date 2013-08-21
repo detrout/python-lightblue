@@ -1,0 +1,32 @@
+python-lightblue (0.3.2-1) unstable; urgency=low
+
+  * New upstream version.
+  * Remove build dir, if present, during clean; thanks to Sandro Tosi for the
+    patch (closes: #442712).
+  * Bump debhelper compatibility to 6; no changes needed.
+  * Bump Standards-Version to 3.7.3; no changes needed.
+  * Add shlibs:Depends on Depends line. Woops. :)
+
+ -- martin f. krafft <madduck@debian.org>  Mon, 31 Mar 2008 23:26:17 +0200
+
+python-lightblue (0.2-3) unstable; urgency=low
+
+  * Remove python-all dependency, which is included with python-all-dev.
+  * Move all code from binary-indep target to binary-arch since this is an
+    arch:any package. Sorry about that (closes: #434115).
+
+ -- martin f. krafft <madduck@debian.org>  Sun, 22 Jul 2007 13:25:24 +0200
+
+python-lightblue (0.2-2) unstable; urgency=low
+
+  * Build-depend on python-all / python-all-dev and make sure only ever to try
+    to compile against installed and supported versions (closes: #433903).
+
+ -- martin f. krafft <madduck@debian.org>  Fri, 20 Jul 2007 12:36:22 +0200
+
+python-lightblue (0.2-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- martin f. krafft <madduck@debian.org>  Wed, 14 Mar 2007 20:11:37 +0100
+
