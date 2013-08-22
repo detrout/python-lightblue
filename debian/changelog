@@ -5,8 +5,11 @@ lightblue (0.4+repack-1) UNRELEASED; urgency=low
   * Converted rules file to dh magic.
   * Rename source to lightblue as that's upstreams name.
   * Update debhelper to 9
-  * Add a get-orig-sources target as upstream's tar is filled with OS X resource files.
+  * Add a get-orig-sources target as upstream's tar is filled with
+    OS X resource files.
   * Update watch file
+  * Set python-all-dev dependency version
+  * Remove obsolete Provides: stanza
   
  -- Diane Trout <diane@ghic.org>  Tue, 20 Aug 2013 18:46:15 -0700
 

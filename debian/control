@@ -3,14 +3,13 @@ Section: python
 Priority: extra
 Maintainer: martin f. krafft <madduck@debian.org>
 Uploaders: Diane Trout <diane@ghic.org>
-Build-Depends: debhelper (>= 9), python-all-dev, libopenobex1-dev, python-bluez
+Build-Depends: debhelper (>= 9), python-all-dev (>= 2.6.5-2~), libopenobex1-dev, python-bluez
 X-Python-Version: >= 2.6
 Standards-Version: 3.9.4
 
 Package: python-lightblue
 Architecture: any
 Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}
-Provides: ${python:Provides}
 Description: cross-platform Bluetooth API for Python
  The package provides a Python API which provides simple access to Bluetooth
  operations. It is available for Mac OS X, GNU/Linux and Nokia's Python for
