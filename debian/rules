@@ -8,7 +8,6 @@ PKG := $(word 2,$(shell dpkg-parsechangelog -l$(PKD)/changelog | grep ^Source))
 UVER := $(shell dpkg-parsechangelog -l$(PKD)/changelog | grep Version | cut -f 2 -d ' '  | cut -f 1 -d '-')
 DTYPE := +repack
 VER ?= $(subst $(DTYPE),,$(UVER))
-PYVERSIONS = $(shell pyversions -i)
 
 %:
 	dh $@ --with python2
