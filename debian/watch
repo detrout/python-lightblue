@@ -1,2 +1,3 @@
 version=3
-http://sf.net/lightblue/lightblue-([0-9.]+)\.tar\.gz
+opts=dversionmangle=s/[\.\+]repack[\d\.]*// \
+http://sf.net/lightblue/lightblue-([\d.]+)\.tar\.gz
