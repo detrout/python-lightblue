@@ -1,0 +1,8 @@
+README.source
+=============
+
+The reason for the repack target is because upstreams
+used an archival tool that included the MacOS resource
+fork as a small hidden file for every file in the archive.
+
+ -- Diane Trout <diane@ghic.org>, Wed, 21 Aug 2013 20:54:38 -0700
