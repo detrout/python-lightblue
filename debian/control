@@ -1,7 +1,7 @@
 Source: lightblue
 Section: python
 Priority: extra
-Maintainer: martin f. krafft <madduck@debian.org>
+Maintainer: Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Diane Trout <diane@ghic.org>
 Build-Depends: debhelper (>= 9), python-all-dev (>= 2.6.5-2~), libopenobex1-dev, python-bluez
 X-Python-Version: >= 2.6

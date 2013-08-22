@@ -10,6 +10,8 @@ lightblue (0.4+repack-1) UNRELEASED; urgency=low
   * Update watch file
   * Set python-all-dev dependency version
   * Remove obsolete Provides: stanza
+  * Set maintainer to python-modules-team
+  * Add myself to uploaders (Closes #651141)
   
  -- Diane Trout <diane@ghic.org>  Tue, 20 Aug 2013 18:46:15 -0700
 
